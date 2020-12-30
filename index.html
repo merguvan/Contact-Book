@@ -18,6 +18,7 @@
 
   <!-- Create your table below -->
 <table>
+  <thead>
   <tr>
     <th scope="col">ID</th>
     <th scope="col">NAME</th>
@@ -25,6 +26,8 @@
     <th scope="col">MOBILE PHONES</th>
     <th scope="col">ADDRESS</th>
   </tr>
+</thead>
+<tbody>
   <tr>
     <th scope="row">01</th>
     <td>Cameron Walters</td>
@@ -44,25 +47,25 @@
     <td>Ricky Patterson</td>
     <td>ricky.patterson@example.com</td>
     <td>(909)-714-1988</td>
-    <td></td>
+    <td rowspan="2"></td>
   </tr>
   <tr>
     <th scope="row">04</th>
     <td>Jim Hunter</td>
     <td>jim.hunter@example.com</td>
     <td>(744)-671-1531</td>
-    <td></td>
+
   </tr>
   <tr>
-    <th scope="row">05</th>
-    <td>Veronica Medina</td>
+    <th scope="row" rowspan="2">05</th>
+    <td rowspan="2">Veronica Medina</td>
     <td>veronica.medina@example.com</td>
     <td>(510)-944-3973</td>
     <td>2036 W 6th St</td>
   </tr>
   <tr>
-    <th scope="row"></th>
-    <td></td>
+
+
     <td>ver.medina@example.com</td>
     <td>(719)-847-6012</td>
     <td>9954 Cackson St</td>
@@ -74,13 +77,13 @@
     <td>(226)-595-1459</td>
     <td>2773 Hickory Creek Dr</td>
   </tr>
+</tbody>
+<tfoot>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <th scope="row">Total Contacts</th>
+    <th scope="row" colspan="4" style="text-align: right;">Total Contacts</th>
     <td>5</td>
   </tr>
+</tfoot>
 </table>
 
 </body>
